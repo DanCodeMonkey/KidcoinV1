@@ -1,0 +1,863 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body,
+h1 {
+  display: flex;
+  justify-content: center;
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+body {
+  background-color: #ffffff;
+}
+a {
+  text-decoration: none;
+  color: #0b0069;
+}
+button a {
+  text-decoration: none;
+  color: #ffffff;
+}
+section {
+  padding: 80px 0px;
+}
+
+.main {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.wrapmenu {
+  width: 70%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#wrap {
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  text-align: right;
+  margin: 0px;
+  height: auto;
+  width: 100%;
+  align-items: center;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  margin: 0px;
+  padding: 10px;
+  justify-content: end;
+}
+
+nav ul li {
+  margin-right: 10px;
+}
+
+nav a {
+  text-decoration: none;
+  font-size: small;
+  color: #000000;
+}
+
+nav a:hover {
+  color: #858585;
+}
+
+.hero {
+  flex-wrap: wrap;
+  display: flex;
+  height: 8-vh;
+  width: 100vw;
+  align-items: center;
+  justify-content: center;
+}
+
+.herotitle {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 600px;
+}
+
+.herotitle h1 {
+  font-family: "Luckiest Guy", cursive;
+  color: #ffc400;
+  font-size: 140px;
+  text-shadow: -4px -4px 0 black, 2px -2px 0 black, -2px 2px 0 black,
+    2px 2px 0 black;
+  transition: 0.3s;
+}
+
+nav h1:hover {
+  font-size: 65px;
+}
+
+.herotitle h2 {
+  color: #4b4b4b;
+  text-align: center;
+  font-family: "Passion One", Geneva, Tahoma, sans-serif;
+  font-weight: bolder;
+  font-size: 40px;
+  margin: 0;
+  margin-bottom: 15px;
+}
+
+.heroimg img {
+  height: 450px;
+}
+
+.jogueagora {
+  text-decoration: none;
+  text-align: center;
+  background-color: #00da49;
+  color: #ffffff;
+  width: 250px;
+  border-radius: 30px;
+  font-size: 22px;
+  font-weight: bolder;
+  margin: 8px;
+  padding: 5px;
+  box-shadow: 0px 7px #006421;
+  transition: 0.3s;
+}
+
+.saibamais {
+  width: 250px;
+  text-align: center;
+  text-decoration: none;
+  background-color: #1500d4;
+  color: #ffffff;
+  border-radius: 30px;
+  font-size: 22px;
+  font-weight: bolder;
+  margin: 8px;
+  padding: 5px;
+  box-shadow: 0px 7px #0b0069;
+  transition: 0.3s;
+}
+
+.jogueagora:hover {
+  transform: translateY(8px);
+  box-shadow: none;
+}
+
+.saibamais:hover {
+  transform: translateY(8px);
+  box-shadow: none;
+}
+
+/*seçaõ sobre*/
+.about {
+  flex-wrap: wrap;
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  color: #3b3b3b;
+}
+
+.abouttitle {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 560px;
+}
+
+.abouttitle h1 {
+  font-family: "Luckiest Guy", cursive;
+  color: #bf211e;
+  font-size: 140px;
+  text-shadow: -4px -4px 0 black, 2px -2px 0 black, -2px 2px 0 black,
+    2px 2px 0 black;
+  transition: 0.3s;
+}
+
+.aboutitle h1:hover {
+  font-size: 150px;
+}
+
+.abouttitle h2 {
+  font-family: "Passion One", Arial, Helvetica, sans-serif;
+  color: #4b4b4b;
+  font-size: 50px;
+  transition: 0.3s;
+  margin: 0;
+}
+
+.aboutimg img {
+  height: 600px;
+}
+
+.about p {
+  font-weight: bold;
+  margin: 4px;
+}
+
+/* PRETTY CTA */
+.cta-section {
+  flex-wrap: wrap;
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+  background-color: #00002c;
+}
+
+.ctatitle {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 700px;
+  text-align: center;
+}
+
+.ctatitle h1 {
+  font-family: "Luckiest Guy", cursive;
+  color: #bf211e;
+  font-size: 140px;
+  text-shadow: -4px -4px 0 black, 2px -2px 0 black, -2px 2px 0 black,
+    2px 2px 0 black;
+  transition: 0.3s;
+}
+
+.ctatitle h1:hover {
+  font-size: 150px;
+}
+
+.ctatitle h2 {
+  font-family: "Passion One", Arial, Helvetica, sans-serif;
+  color: #ffffff;
+  font-size: 70px;
+  transition: 0.3s;
+  margin: 0;
+}
+
+.ctaimg img {
+  height: 500px;
+}
+
+.cta-section p {
+  font-weight: bold;
+  margin: 4px;
+}
+
+.ctabutton {
+  text-decoration: none;
+  text-align: center;
+  background-color: #ffffff;
+  color: #00002c;
+  width: 250px;
+  border-radius: 30px;
+  font-size: 22px;
+  font-weight: bolder;
+  margin: 8px;
+  padding: 5px;
+  box-shadow: 0px 7px #696969;
+  transition: 0.3s;
+}
+
+.ctabutton:hover {
+  transform: translateY(8px);
+  box-shadow: none;
+}
+
+/*LOGIN*/
+
+.loginwrap {
+  height: 80vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+nav h1 {
+  font-family: "Luckiest Guy", cursive;
+  color: #ffc400;
+  font-size: 60px;
+  text-shadow: -4px -4px 0 black, 2px -2px 0 black, -2px 2px 0 black,
+    2px 2px 0 black;
+  transition: 0.3s;
+  padding-left: 20px;
+}
+
+.logintitle h2 {
+  font-family: "Passion One";
+  color: #4b4b4b;
+  font-size: 35px;
+  text-align: center;
+  width: 100%;
+}
+
+.logintitle {
+  width: 100%;
+}
+
+.login {
+  text-align: center;
+  border: solid 2px #4b4b4b;
+  padding: 40px;
+  border-radius: 30px;
+  box-shadow: -8px 8px 0px #4b4b4b;
+  margin: 50px 0px;
+  background-color: #ffc400;
+}
+
+.login h2 {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.login input {
+  width: 300px;
+  border-radius: 10px;
+  height: 30px;
+  border: none;
+  box-shadow: -3px 6px 0px #4b4b4b;
+  margin-bottom: 15px;
+}
+
+.login label {
+  padding: 8px;
+  font-weight: bold;
+  color: #4b4b4b;
+}
+
+.login button {
+  text-align: center;
+  text-decoration: none;
+  background-color: #1500d4;
+  color: #ffffff;
+  border-radius: 30px;
+  font-size: 20px;
+  font-weight: bolder;
+  padding-right: 30px;
+  padding-left: 30px;
+  box-shadow: 0px 7px #0b0069;
+  transition: 0.3s;
+  border: none;
+}
+
+.login button:hover {
+  transform: translateY(8px);
+  box-shadow: none;
+}
+
+/* PERFIL DO JOGADOR */
+.charsection {
+  flex-wrap: wrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0px 0px;
+}
+
+.chartitle {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 400px;
+}
+
+.chartitle h1 {
+  font-family: "Luckiest Guy", cursive;
+  color: #ffc400;
+  font-size: 140px;
+  text-shadow: -4px -4px 0 black, 2px -2px 0 black, -2px 2px 0 black,
+    2px 2px 0 black;
+  transition: 0.3s;
+}
+
+nav h1:hover {
+  font-size: 65px;
+}
+
+.chartitle h2 {
+  color: #4b4b4b;
+  text-align: center;
+  font-family: "Passion One", Geneva, Tahoma, sans-serif;
+  font-weight: bolder;
+  font-size: 40px;
+  margin: 0;
+  margin-bottom: 15px;
+  width: 100%;
+}
+#mission-counter{
+  font-family: "Luckiest Guy", cursive;
+}
+
+.charimg img {
+  height: 450px;
+}
+
+.playerhud-badge{
+  height: 210px;
+  margin-top: 30px;
+}
+
+/* SKIN CARD BOX */
+.skinsection {
+  width: 90%;
+  flex-wrap: wrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0px 0px;
+  padding: 0px;
+}
+
+.skincardbox {
+  width: 100%;
+}
+
+.skincard {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 170px;
+  border-radius: 10px;
+  margin: 10px 10px;
+  box-shadow: -6px 6px 0px #4b4b4b;
+  background-color: #ffc400;
+  transition: 0.1s;
+}
+
+.skincard h3 {
+  color: #3b3b3b;
+  font-family: "Luckiest Guy", cursive;
+  width: 120px;
+  text-align: center;
+}
+
+.skincard:active {
+  transform: translateY(8px);
+  box-shadow: none;
+}
+
+.skintitle {
+  width: 100%;
+  text-align: center;
+  font-family: "Luckiest Guy", cursive;
+  color: #3b3b3b;
+  font-size: 35px;
+}
+.skinimg img {
+  height: 150px;
+}
+
+/* hub de missões */
+.charsection-inhub {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100%;
+  height: auto;
+  padding: 60px 0px;
+  align-items: center;
+  font-family: "Passion One", Geneva, Tahoma, sans-serif;
+  color: #3b3b3b;
+  gap: 50px;
+  padding: 0px;
+  margin: 0px;
+}
+.hubcharimg {
+  height: 300px;
+}
+.charsection-inhub p {
+  font-size: 35px;
+}
+.charsection-inhub h2{
+    width: 100%;
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+}
+
+.missionsection h1 {
+  font-family: "Luckiest Guy", cursive;
+  color: #3b3b3b;
+  font-size: 60px;
+  width: 100%;
+}
+
+.missionsection h2 {
+  width: 100%;
+  text-align: center;
+  font-family: "Luckiest Guy", cursive;
+  color: #3b3b3b;
+  margin: 50px 0px;
+  margin-bottom: 100px;
+}
+
+.missionsection {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  font-size: 25px;
+  padding: 0px;
+  color: #3b3b3b;
+  margin-top: 90px;
+}
+
+.missionsection p {
+  margin: 0px;
+  text-align: center;
+}
+
+.mission01 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #aaaaaa;
+  height: 60px;
+  border-radius: 50px;
+  padding: 0px 50px;
+  font-weight: bold;
+  box-shadow: 0px 7px #666666;
+  transition: 0.3s;
+  cursor: pointer;
+  font-family: "Passion One", Geneva, Tahoma, sans-serif;
+}
+
+.mission02 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #a6e200;
+  height: 60px;
+  border-radius: 40px;
+  padding: 0px 50px;
+  font-weight: bold;
+  box-shadow: 0px 7px #79a500;
+  transition: 0.3s;
+  cursor: pointer;
+  font-family: "Passion One", Geneva, Tahoma, sans-serif;
+}
+
+.mission03 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffd000;
+  height: 60px;
+  border-radius: 40px;
+  padding: 0px 50px;
+  font-weight: bold;
+  box-shadow: 0px 7px #be9c00;
+  transition: 0.3s;
+  cursor: pointer;
+  font-family: "Passion One", Geneva, Tahoma, sans-serif;
+}
+
+.mission04 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ff3a18;
+  height: 60px;
+  border-radius: 40px;
+  padding: 0px 50px;
+  font-weight: bold;
+  box-shadow: 0px 7px #5c2016;
+  transition: 0.3s;
+  cursor: pointer;
+  font-family: "Passion One", Geneva, Tahoma, sans-serif;
+}
+
+.dividermap {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 6px;
+}
+
+.linemap {
+  width: 5px;
+  height: 100px;
+  background-color: #3b3b3b;
+  margin: 4px;
+}
+
+.mission01:hover,
+.mission02:hover,
+.mission03:hover,
+.mission04:hover {
+  transform: translateY(8px);
+  box-shadow: none;
+}
+
+.badge img {
+  height: 300px;
+}
+
+.voltar {
+  width: 130px;
+  text-align: center;
+  text-decoration: none;
+  background-color: #1500d4;
+  color: #ffffff;
+  border-radius: 30px;
+  font-size: 22px;
+  font-weight: bolder;
+  margin: 8px;
+  padding: 5px;
+  box-shadow: 0px 7px #0b0069;
+  transition: 0.3s;
+}
+
+.voltar:hover {
+  transform: translateY(8px);
+  box-shadow: none;
+}
+
+footer {
+  text-align: center;
+  color: #858585;
+  height: 50px;
+}
+
+/* MODAL QUIZ */
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0, 0, 0); /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #ffd000;
+  margin: 5% auto; /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 90%; /* Could be more or less, depending on screen size */
+  border-radius: 50px;
+  box-shadow: -20px 20px #272727;
+}
+
+/* The Close Button */
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.modal-quiz {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 0px;
+  margin: 0px;
+}
+
+.modal-quiz h2 {
+  color: #3b3b3b;
+  font-family: "Passion One", Geneva, Tahoma, sans-serif;
+  font-size: 50px;
+  padding: 0px;
+  margin: 0px;
+  width: 100%;
+  text-align: center;
+}
+
+.modal-quiz h3 {
+  color: #3b3b3b;
+  font-family: "Passion One", Geneva, Tahoma, sans-serif;
+  font-size: 30px;
+  padding: 0px;
+  margin: 0px;
+  width: 100%;
+  text-align: center;
+  width: 100%;
+}
+.modal-quiz p {
+  color: #3b3b3b;
+  font-family: "Passion One", Geneva, Tahoma, sans-serif;
+  font-size: 30px;
+  padding: 0px;
+  width: 70%;
+  text-align: center;
+  width: 100%;
+}
+
+.alternatives {
+  text-align: left;
+  color: #3b3b3b;
+  font-family: "Passion One", Geneva, Tahoma, sans-serif;
+  font-size: 25px;
+}
+
+.alternatives input[type="radio"] {
+  -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Chrome, Safari, Opera */
+  transform: scale(1.5);
+}
+
+.modal-quiz input[type="text"] {
+  background-color: #ffd000;
+  border: none;
+  border-bottom: solid 2px #3b3b3b;
+  color: #3b3b3b;
+  font-size: 25px;
+  font-family: "Passion One", Geneva, Tahoma, sans-serif;
+  text-align: center;
+}
+
+/* ANIMATIONS */
+@keyframes bounce {
+  0%,
+  100% {
+    transform: translateY(0);
+    animation-timing-function: ease-in-out;
+  }
+  50% {
+    transform: translateY(-15px);
+    animation-timing-function: ease-in-out;
+  }
+}
+
+.charImg {
+  animation: bounce 1s infinite;
+}
+
+.aboutimg {
+  animation: bounce 1.3s infinite;
+}
+.ctaimg {
+  animation: bounce 1.7s infinite;
+}
+.hubcharimg {
+  animation: bounce 1.7s infinite;
+}
+.badge {
+  animation: bounce 1.3s infinite;
+}
+@media screen and (max-width: 700px) {
+  .main {
+    width: 100vw;
+  }
+
+  .wrapmenu {
+    width: 100vw;
+  }
+
+  .herotitle h1 {
+    font-size: 90px;
+  }
+
+  .herotitle h1:hover {
+    font-size: 90px;
+  }
+
+  .heroimg img {
+    height: 400px;
+  }
+
+  .abouttitle {
+    width: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    order: 0;
+  }
+
+  .about {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .aboutimg img {
+    height: 400px;
+  }
+
+  .charImg img {
+    height: 350px;
+  }
+
+  .charimg img {
+    height: 350px;
+  }
+  .ctaimg img {
+    height: 350px;
+  }
+  .cta-section {
+    height: 100vh;
+  }
+  .ctatitle h2 {
+    font-size: 45px;
+  }
+
+  /* HUB MISSION */
+
+  .charsection-inhub p {
+    width: 100%;
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+  }
+
+
+  .missionsection h1 {
+    text-align: center;
+  }
+
+  /*LOGIN*/
+  .login {
+    width: auto;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 0px;
+  }
+
+  .login input {
+    width: auto;
+  }
+
+  nav {
+    margin-bottom: 80px;
+  }
+
+  nav h1 {
+    font-size: 40px;
+    padding-left: 20px;
+  }
+
+  .login button {
+    margin-bottom: 10px;
+  }
+}

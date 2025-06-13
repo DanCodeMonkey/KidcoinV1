@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap" rel="stylesheet">
+
+    <script src="modalquiz.js" defer></script>
+
+    <link rel="stylesheet" href="style.css">
+    <script src="changeskin.js" defer></script>
+    <title>KIDCOIN - Missões</title> 
+</head>
+<body>
+    <div class="">
+        <div id="wrap">
+            <nav>
+                <div class="wrapmenu">
+                    <a href="index.html"><h1>KidCoin</h1></a>
+                    <ul>
+                        <a href="login.html"><li>Entrar</li></a>
+                        <a href="cadastrar.html"><li>Cadastrar</li></a>
+                    </ul>
+                </div>
+            </nav>
+            <a class="voltar" href="perfilJogador.html">VOLTAR</a>
+            <section class="charsection-inhub">
+                <h2><img class="playerhud-badge" src="assets/badge02.png" alt=""></h2>
+                <img class="hubcharimg" src="assets/skin10.png" alt=""> 
+                <p>👾 Jogador: Pedro</p>
+                <p>💵 Dinheirinho: <span>400</span></p>
+            </section>
+            
+            <section class="missionsection">
+                <h1>Seleção de missões</h1>
+                <h2>🛸 Primeira trilha 🛸</h2>
+
+                <div class="mission01" id="mission01"><p><span>💰 </span> O que é Dinheiro?</p></div>
+                <div class="dividermap"><div class="linemap"></div></div>
+
+                <div class="mission02" id="mission02"><p><span>🎯 </span> Desejo ou Necessidade?</p></div>
+                <div class="dividermap"><div class="linemap"></div></div>
+
+                <div class="mission02" id="mission03"><p><span>🐷 </span> Guardar Dinheiro</p></div>
+                <div class="dividermap"><div class="linemap"></div></div>
+
+                <div class="mission03" id="mission04"><p><span>🧹 </span> Ganhar Dinheiro</p></div>
+                <div class="dividermap"><div class="linemap"></div></div>
+
+                <div class="mission04" id="mission05"><p><span>💞 </span> Dividindo o Dinheiro: Gastar, Guardar e Doar</p></div>
+                <div class="dividermap"><div class="linemap"></div></div>
+
+                <div class="badge"><img src="assets/badge02.png" alt=""></div>
+
+            </section>
+
+            <!-- Modal atividade 01 -->
+            <div id="myModal1" class="modal">
+                <!-- Modal content -->
+                <div class="modal-content">
+                    <span class="close" id="close1">&times;</span>
+                    <section class="charsection-inhub">
+                        <img class="hubcharimg" src="assets/skin10.png" alt="">
+                        <p>👾 Jogador: Pedro</p>
+                        <p>💵 Dinheirinho: <span>400</span></p>
+                    </section>
+                    <section class="modal-quiz">
+                        <h2>🧠 Quiz 1 – O que é Dinheiro?</h2>
+                        <h3>📘 Conceito ensinado:</h3>
+                        <p>Dinheiro é o que usamos para trocar por coisas que queremos ou precisamos.<br>Ele pode ser em notas, moedas ou até digital.
+
+                        <h3>Pergunta 1:</h3>
+                        <p>O que podemos comprar com dinheiro?</p>
+
+                        <div class="alternatives">
+                            <label>
+                                <input type="radio" name="pergunta1" value="brinquedo">
+                                A) Amigos
+                            </label><br>
+
+                            <label>
+                                <input type="radio" name="pergunta1" value="celular">
+                                B) Comida
+                            </label><br>
+
+                            <label>
+                                <input type="radio" name="pergunta1" value="comida">
+                                C) Vontade
+                            </label>
+
+                            <br><br><br>
+                        </div>
+
+                        <h3>Pergunta 2:</h3>
+                        <p>Qual dessas é uma forma de dinheiro?</p>
+
+                        <div class="alternatives">
+                            <label>
+                                <input type="radio" name="pergunta2" value="brinquedo">
+                                A) Pedra
+                            </label><br>
+
+                            <label>
+                                <input type="radio" name="pergunta2" value="celular">
+                                B) Moeda
+                            </label><br>
+
+                            <label>
+                                <input type="radio" name="pergunta2" value="comida">
+                                C) Balão
+                            </label>
+
+                            <br><br><br>
+                        </div>
+
+                        <h3>Pergunta 3:</h3>
+                        <p>Se você ganha 5 reais e gasta 2, quanto sobra?</p>
+
+                        <div class="alternatives">
+                            <label>
+                                <input type="radio" name="pergunta3" value="brinquedo">
+                                A) 7
+                            </label><br>
+
+                            <label>
+                                <input type="radio" name="pergunta3" value="celular">
+                                B) 3
+                            </label><br>
+
+                            <label>
+                                <input type="radio" name="pergunta3" value="comida">
+                                C) 2
+                            </label>
+
+                            <br><br><br>
+                        </div>
+
+                        <h3>Pergunta 4:</h3>
+                        <p>Usamos <input type="text" size="10"> para comprar coisas e <input type="text" size="10"> débitos quando precisamos</p>
+
+                        <br><br><br>
+                    </section>
+                </div>
+            </div>
+
+            <!-- Modal atividade 02 -->
+            <div id="myModal2" class="modal">
+                <!-- Modal content -->
+                <div class="modal-content" id="modal-content2">
+                    <span class="close" id="close2">&times;</span>
+                    <section class="charsection-inhub">
+                        <img class="hubcharimg" src="assets/skin10.png" alt="">
+                        <p>👾 Jogador: Pedro</p>
+                        <p>💵 Dinheirinho: <span>400</span></p>
+                    </section>
+                    <section class="modal-quiz">
+                        <h2>🧠 Quiz 2 – Desejo ou Necessidade?</h2>
+                        <h3>📘 Conceito ensinado:</h3>
+                        <p>Nem tudo o que queremos é algo que precisamos.<br>Saber a diferença ajuda a fazer boas escolhas com o dinheiro.</p>
+
+                        <h3>Pergunta 1:</h3>
+                        <p>O que é uma necessidade?</p>
+
+                        <div class="alternatives">
+                            <label>
+                                <input type="radio" name="pergunta1" value="brinquedo">
+                                A) Brinquedo
+                            </label><br>
+
+                            <label>
+                                <input type="radio" name="pergunta1" value="celular">
+                                B) Celular
+                            </label><br>
+
+                            <label>
+                                <input type="radio" name="pergunta1" value="comida">
+                                C) Comida
+                            </label>
+
+                            <br><br><br>
+                        </div>
+
+                        <h3>Pergunta 2:</h3>
+                        <p>Qual é um desejo?</p>
+
+                        <div class="alternatives">
+                            <label>
+                                <input type="radio" name="pergunta2" value="brinquedo">
+                                A) Água
+                            </label><br>
+
+                            <label>
+                                <input type="radio" name="pergunta2" value="celular">
+                                B) Carrinho de controle remoto
+                            </label><br>
+
+                            <label>
+                                <input type="radio" name="pergunta2" value="comida">
+                                C) Sapato para a escola
+                            </label>
+
+                            <br><br><br>
+                        </div>
+
+                        <h3>Pergunta 3:</h3>
+                        <p>Guardar dinheiro para comprar algo mais importante depois é:</p>
+
+                        <div class="alternatives">
+                            <label>
+                                <input type="radio" name="pergunta3" value="brinquedo">
+                                A) Impulso
+                            </label><br>
+
+                            <label>
+                                <input type="radio" name="pergunta3" value="celular">
+                                B) Gastar rápido
+                            </label><br>
+
+                            <label>
+                                <input type="radio" name="pergunta3" value="comida">
+                                C) Planejamento
+                            </label>
+
+                            <br><br><br>
+                        </div>
+
+                        <h3>Pergunta 4:</h3>
+                        <p>Compro o que preciso e guardo para o que eu <input type="text" size="10">. Assim, faço um bom <input type="text" size="10"></p>
+
+                        <br><br><br>
+                    </section>
+                </div>
+            </div>
+
+             <!-- Modal atividade 03 -->
+            <div id="myModal3" class="modal">
+                <!-- Modal content -->
+                <div class="modal-content" id="modal-content3">
+                    <span class="close" id="close3">&times;</span>
+                    <section class="charsection-inhub">
+                        <img class="hubcharimg" src="assets/skin10.png" alt="">
+                        <p>👾 Jogador: Pedro</p>
+                        <p>💵 Dinheirinho: <span>400</span></p>
+                    </section>
+                    <section class="modal-quiz">
+                        <h2>🧠 Quiz 3 – A Importância de Guardar Dinheiro</h2>
+                        <h3>📘 Conceito ensinado:</h3>
+                        <p>Guardar uma parte do que ganhamos nos ajuda no futuro e evita gastar tudo de uma vez.</p>
+
+                        <h3>Pergunta 1:</h3>
+                        <p>Por que é bom guardar dinheiro?</p>
+
+                        <div class="alternatives">
+                            <label>
+                                <input type="radio" name="pergunta1" value="brinquedo">
+                                A) Para não sobrar nada
+                            </label><br>
+
+                            <label>
+                                <input type="radio" name="pergunta1" value="celular">
+                                B) Para comprar coisas sem pensar
+                            </label><br>
+
+                            <label>
+                                <input type="radio" name="pergunta1" value="comida">
+                                C) Para ter quando precisar
+                            </label>
+
+                            <br><br><br>
+                        </div>
+
+                        <h3>Pergunta 2:</h3>
+                        <p>Onde é um bom lugar para guardar dinheiro em casa?</p>
+
+                        <div class="alternatives">
+                            <label>
+                                <input type="radio" name="pergunta2" value="brinquedo">
+                                A) Cofrinho
+                            </label><br>
+
+                            <label>
+                                <input type="radio" name="pergunta2" value="celular">
+                                B) Sofá
+                            </label><br>
+
+                            <label>
+                                <input type="radio" name="pergunta2" value="comida">
+                                C) Bolsa da escola
+                            </label>
+
+                            <br><br><br>
+                        </div>
+
+                        <h3>Pergunta 3:</h3>
+                        <p>Se você guardar R$2 por dia, quanto terá em 5 dias?</p>
+
+                        <div class="alternatives">
+                            <label>
+                                <input type="radio" name="pergunta3" value="brinquedo">
+                                A) R$10
+                            </label><br>
+
+                            <label>
+                                <input type="radio" name="pergunta3" value="celular">
+                                B) R$5
+                            </label><br>
+
+                            <label>
+                                <input type="radio" name="pergunta3" value="comida">
+                                C) R$7
+                            </label>
+
+                            <br><br><br>
+                        </div>
+
+                        <h3>Pergunta 4:</h3>
+                        <p>Guardar um pouco todo dia ajuda a ter dinheiro no <input type="text" size="10">. Isso se chama <input type="text" size="10">.</p>
+
+                        <br><br><br>
+                    </section>
+                </div>
+            </div>
+
+            <!-- Modal atividade 04 -->
+            <div id="myModal4" class="modal">
+                <!-- Modal content -->
+                <div class="modal-content" id="modal-content4">
+                    <span class="close" id="close4">&times;</span>
+                    <section class="charsection-inhub">
+                        <img class="hubcharimg" src="assets/skin10.png" alt="">
+                        <p>👾 Jogador: Pedro</p>
+                        <p>💵 Dinheirinho: <span>400</span></p>
+                    </section>
+                    <section class="modal-quiz">
+                        <h2>🧠 Quiz 4 – Ganhar Dinheiro</h2>
+                        <h3>📘 Conceito ensinado:</h3>
+                        <p>Dinheiro é ganho com trabalho ou tarefas. Podemos ajudar em casa e aprender o valor de conquistar o que queremos.</p>
+
+                        <h3>Pergunta 1:</h3>
+                        <p>Qual destas formas é justa de ganhar dinheiro?</p>
+
+                        <div class="alternatives">
+                            <label>
+                                <input type="radio" name="pergunta1" value="brinquedo">
+                                A) Ajudar alguém e receber
+                            </label><br>
+
+                            <label>
+                                <input type="radio" name="pergunta1" value="celular">
+                                B) Pegar escondido
+                            </label><br>
+
+                            <label>
+                                <input type="radio" name="pergunta1" value="comida">
+                                C) Pedir sem motivo
+                            </label>
+
+                            <br><br><br>
+                        </div>
+
+                        <h3>Pergunta 2:</h3>
+                        <p>Se sua avó te dá uma moeda por arrumar a cama, isso é:</p>
+
+                        <div class="alternatives">
+                            <label>
+                                <input type="radio" name="pergunta2" value="brinquedo">
+                                A) Um presente
+                            </label><br>
+
+                            <label>
+                                <input type="radio" name="pergunta2" value="celular">
+                                B) Um pagamento
+                            </label><br>
+
+                            <label>
+                                <input type="radio" name="pergunta2" value="comida">
+                                C) Uma troca errada
+                            </label>
+
+                            <br><br><br>
+                        </div>
+
+                        <h3>Pergunta 3:</h3>
+                        <p>Ganhar dinheiro é sempre:</p>
+
+                        <div class="alternatives">
+                            <label>
+                                <input type="radio" name="pergunta3" value="brinquedo">
+                                A) Fácil e rápido
+                            </label><br>
+
+                            <label>
+                                <input type="radio" name="pergunta3" value="celular">
+                                B) Demorado e confuso
+                            </label><br>
+
+                            <label>
+                                <input type="radio" name="pergunta3" value="comida">
+                                C) Resultado de esforço e trabalho
+                            </label>
+
+                            <br><br><br>
+                        </div>
+
+                        <h3>Pergunta 4:</h3>
+                        <p>Dinheiro vem depois de <input type="text" size="10">. Com ele, posso <input type="text" size="10">o que preciso.</p>
+
+                        <br><br><br>
+                    </section>
+                </div>
+            </div>
+
+            <!-- Modal atividade 05 -->
+            <div id="myModal5" class="modal">
+                <!-- Modal content -->
+                <div class="modal-content" id="modal-content5">
+                    <span class="close" id="close5">&times;</span>
+                    <section class="charsection-inhub">
+                        <img class="hubcharimg" src="assets/skin10.png" alt="">
+                        <p>👾 Jogador: Pedro</p>
+                        <p>💵 Dinheirinho: <span>400</span></p>
+                    </section>
+                    <section class="modal-quiz">
+                        <h2>🧠 Quiz 5 – Dividindo o Dinheiro: Gastar, Guardar e Doar</h2>
+                        <h3>📘 Conceito ensinado:</h3>
+                        <p>Podemos dividir o dinheiro em partes: uma para gastar, outra para guardar e até uma para ajudar os outros.</p>
+
+                        <h3>Pergunta 1:</h3>
+                        <p>Guardar parte do dinheiro ajuda a:</p>
+
+                        <div class="alternatives">
+                            <label>
+                                <input type="radio" name="pergunta1" value="brinquedo">
+                                A) Gastar mais rápido
+                            </label><br>
+
+                            <label>
+                                <input type="radio" name="pergunta1" value="celular">
+                                B) Ter reservas no futuro
+                            </label><br>
+
+                            <label>
+                                <input type="radio" name="pergunta1" value="comida">
+                                C) Jogar fora depois
+                            </label>
+
+                            <br><br><br>
+                        </div>
+
+                        <h3>Pergunta 2:</h3>
+                        <p>Doar dinheiro ou brinquedos é:</p>
+
+                        <div class="alternatives">
+                            <label>
+                                <input type="radio" name="pergunta2" value="brinquedo">
+                                A) Desperdício
+                            </label><br>
+
+                            <label>
+                                <input type="radio" name="pergunta2" value="celular">
+                                B) Egoísmo
+                            </label><br>
+
+                            <label>
+                                <input type="radio" name="pergunta2" value="comida">
+                                C) Generosidade
+                            </label>
+
+                            <br><br><br>
+                        </div>
+
+                        <h3>Pergunta 3:</h3>
+                        <p>Se você tem R$10, gasta R$5, guarda R$3 e doa R$2, você está:</p>
+
+                        <div class="alternatives">
+                            <label>
+                                <input type="radio" name="pergunta3" value="brinquedo">
+                                A) Desperdiçando
+                            </label><br>
+
+                            <label>
+                                <input type="radio" name="pergunta3" value="celular">
+                                B) Planejando bem
+                            </label><br>
+
+                            <label>
+                                <input type="radio" name="pergunta3" value="comida">
+                                C) Fazendo tudo errado
+                            </label>
+
+                            <br><br><br>
+                        </div>
+
+                        <h3>Pergunta 4:</h3>
+                        <p>Gastar com consciência, <input type="text" size="10">  um pouco e <input type="text" size="10">com quem precisa.</p>
+
+                        <br><br><br>
+                    </section>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</body>
+</html>
