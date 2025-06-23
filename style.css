@@ -754,7 +754,24 @@ footer {
   font-family: "Passion One", Geneva, Tahoma, sans-serif;
 }
 
-.node1:hover {
+.node2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #a6e200;
+  height: 60px;
+  width: 40px;
+  border-radius: 100px;
+  padding: 0px 10px;
+  font-weight: bold;
+  box-shadow: 0px 7px #79a500;
+  transition: 0.3s;
+  cursor: pointer;
+  font-family: "Passion One", Geneva, Tahoma, sans-serif;
+}
+
+.node1:hover,
+.node2:hover {
   transform: translateY(8px);
   box-shadow: none;
 }
