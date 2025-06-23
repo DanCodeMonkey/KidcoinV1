@@ -743,7 +743,8 @@ footer {
   justify-content: center;
   align-items: center;
   background-color: #aaaaaa;
-  height: 50px;
+  height: 60px;
+  width: 40px;
   border-radius: 100px;
   padding: 0px 10px;
   font-weight: bold;
